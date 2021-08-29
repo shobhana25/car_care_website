@@ -1,0 +1,52 @@
+.head {
+    position: relative;
+    text-align: center;
+    color: rgb(48, 47, 105);
+    font-size: 50px;
+  }
+  /*Position of text at top*/ 
+  .center {
+    position: absolute;
+    top: 200px;
+    left: 480px;
+    padding-top: 20px;
+  }
+  /*grid properties */
+  .choices {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding-top: 80px;
+    padding-left: 270px;
+    padding-right: 250px;
+    position: relative;
+  }
+  
+  
+  .choices > div {
+   
+    background-color: white;
+    padding: 1px;
+    color: #d9480f;
+  }
+  .mainpara{
+    display: grid;
+    padding-top: 80px;
+    padding-left: 350px;
+    padding-right: 370px;
+    position: relative;
+  }
+  .howitworks{
+    display: grid;
+    padding-top: 60px;
+    padding-left: 450px;
+    padding-right: 200px;
+    position: relative;
+    color: rgb(48, 47, 105);
+    font-size: 50px;
+  }
+  .timeline{
+    padding-top: 60px;
+    padding-left: 450px;
+    padding-right: 200px;
+    position: relative;
+  }
